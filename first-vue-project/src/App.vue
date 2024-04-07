@@ -1,6 +1,10 @@
 <template>
   <LayoutHeader />
-  <BookList />
+  <main>
+    <div id="app" class="inside">
+      <BookList />
+    </div>
+  </main>
 </template>
 
 <script>
